@@ -8,4 +8,4 @@
 
 ## Websites scrapping
 
-Sorry, guys! I just got a small part of your website :upside_down_face:
+Sorry, guys! I just got a small part of your content website :upside_down_face:
