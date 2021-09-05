@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1000" height="240" src="https://github.com/pbizil/alethea_stn/blob/main/alethea.png">
+  <img width="950" height="240" src="https://github.com/pbizil/alethea_stn/blob/main/alethea.png">
 </p>
 
 ## Links importantes
