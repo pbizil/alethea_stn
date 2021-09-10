@@ -18,6 +18,7 @@ Dados PIB dos municípios: https://basedosdados.org/dataset/br-ibge-pib
 
 Dados População dos municípios: https://basedosdados.org/dataset/br-ibge-populacao/resource/0b36fa1c-9cdf-446f-8235-d5d70adaf982
 
+Dados de Código de Municipios: https://dados.gov.br/dataset/lista-de-municipios-do-siafi
 
 ## Websites scrapping
 
