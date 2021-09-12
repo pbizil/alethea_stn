@@ -26,7 +26,7 @@ Sorry, guys! I just got a small part of your content website :upside_down_face:
 
 ## Créditos
 
-<p align="center">
-  <img width="300" height="300" src="https://github.com/pbizil/alethea_stn/blob/main/pics/geobr.png">
+<p align="left">
+  <img width="300" height="400" src="https://github.com/pbizil/alethea_stn/blob/main/pics/geobr.png">
 </p>
 
