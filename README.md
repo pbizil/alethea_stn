@@ -31,7 +31,9 @@ Alethea é um modelo de estimação de preço
 
 ## Dados e scrapping 
 
-Dados de imóveis da União: https://dados.gov.br/dataset/imoveis-da-uniao/resource/2a2cf651-3f93-4ce3-96a4-7df0a6d2d1e5
+- Dados de imóveis da União: https://dados.gov.br/dataset/imoveis-da-uniao/resource/2a2cf651-3f93-4ce3-96a4-7df0a6d2d1e5
+
+- Os dados referentes a preços de imóveis foram coletados 
 
 Sorry, guys! I just got a small part of your content website :upside_down_face:
 
