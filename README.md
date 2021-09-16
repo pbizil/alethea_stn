@@ -37,7 +37,7 @@ O Alethea.dash é
 
 - Dados referentes a imóveis da União foram coletados no [dataset](https://dados.gov.br/dataset/imoveis-da-uniao/resource/2a2cf651-3f93-4ce3-96a4-7df0a6d2d1e5) disponibilizado nos dados abertos do governo federal.
 
-- Os dados referentes a preços de imóveis foram coletados via scrapping do site [Viva Real](https://www.vivareal.com.br/) - Sorry, guys! I just got a small part of your content website :upside_down_face:. Coletou-se dados de preços, endereço e área útil de apartamentos, casas e terrenos das 14 maiores capitais do país. Todo esse trabalho precisou ser feito via Selenium devido a restrições de requisição de javascript das páginas.  
+- Os dados referentes a preços de imóveis foram coletados via scrapping do site [Viva Real](https://www.vivareal.com.br/) - *Sorry, guys! I just got a small part of your content website :upside_down_face:*. Coletou-se dados de preços, endereço e área útil de apartamentos, casas e terrenos das 14 maiores capitais do país. Todo esse trabalho precisou ser feito via Selenium devido a restrições de requisição de javascript das páginas.  
 
 
 
