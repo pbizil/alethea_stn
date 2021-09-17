@@ -6,13 +6,15 @@ Este projeto consiste em uma aplicação voltada para o [XXVI Prêmio Tesouro Na
 
 **Alethea é um modelo de precificação de ativos imobiliários da União.** Este modelo é capaz de mensurar valores de apartamentos, casas e terrenos em 14 maiores capitais do nosso país. Com isso, o objetivo é elucidar melhor o valor destes ativos, em consonância com normas contábeis e também dar mais transparência do valor do patrimônio estatal à sociedade.
 
+A visualização dos resultados, por consulta e geolocalizados, está neste [link](https://hipotumos.shinyapps.io/alethea_stn/).
 
 ## Dados e scrapping 
 
-- Dados referentes a imóveis da União foram coletados no [dataset](https://dados.gov.br/dataset/imoveis-da-uniao/resource/2a2cf651-3f93-4ce3-96a4-7df0a6d2d1e5) disponibilizado nos dados abertos do governo federal.
+- Dados referentes a imóveis da União foram coletados no [dataset](https://dados.gov.br/dataset/imoveis-da-uniao/resource/2a2cf651-3f93-4ce3-96a4-7df0a6d2d1e5) disponibilizado nos dados abertos do governo federal;
+- Os dados referentes a preços de imóveis foram coletados via scrapping do site [Viva Real](https://www.vivareal.com.br/) - *Sorry, guys! I just got a small part of your content website :upside_down_face:*. Coletou-se dados de preços, endereço e área útil de apartamentos, casas e terrenos das 14 maiores capitais do país. Todo esse trabalho precisou ser feito via Selenium devido a restrições de requisição de javascript das páginas. 
+- Os dados de geolocalização (latitude e longitude), tanto dos imóveis da União, quanto de mercado, foram coletados via api do [GoogleMaps](https://github.com/googlemaps/google-maps-services-python).
 
-- Os dados referentes a preços de imóveis foram coletados via scrapping do site [Viva Real](https://www.vivareal.com.br/) - *Sorry, guys! I just got a small part of your content website :upside_down_face:*. Coletou-se dados de preços, endereço e área útil de apartamentos, casas e terrenos das 14 maiores capitais do país. Todo esse trabalho precisou ser feito via Selenium devido a restrições de requisição de javascript das páginas.  
-
+Para entender mais como foi feito o scrapping, consultar o código deste repositório.
 
 ## Modelagem 
 
@@ -22,12 +24,15 @@ Este projeto consiste em uma aplicação voltada para o [XXVI Prêmio Tesouro Na
 - Para busca de melhores hiperparâmetros, utilizou-se a otimização bayesiana;
 - A métrica de minimização foi o MSLE. 
 
-Para entender mais o processo de modelagem, consultar os notebooks desse repositório.
+Para entender mais o processo de modelagem, consultar os notebooks deste repositório.
 
 ## Features do dashboard
 
-O Alethea.dash é 
+O [Alethea.dash](https://hipotumos.shinyapps.io/alethea_stn/) é uma infertace que permite visualizar os resultados do modelo Alethea.
 
+Nesta aplicação é possível visualizar:
+- Consulta aos dados de resultados por capital gerada no modelo, dividida entre os três tipos de imóveis: apartamentos, casas e terrenos;
+- Consulta aos imóveis geolocalizados em mapas, também dividida em tipos de imóveis.
 
 ## Stack de ferramentas e tecnologia
 
