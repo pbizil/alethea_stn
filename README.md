@@ -4,7 +4,7 @@
 
 Este projeto consiste em uma aplicação voltada para o [XXVI Prêmio Tesouro Nacional 2021](https://www.gov.br/tesouronacional/pt-br/tesouro-educacional/premio-tesouro), na categoria "Soluções", realizado pela Secretaria do Tesouro Nacional. 
 
-Alethea é um modelo de estimação de preço
+Este projeto consiste em uma aplicação voltada para o Premio Tesouro Nacional. Alethea é um modelo de precificação de ativos imobiliários da União. Este modelo é capaz de mensurar valores de apartamentos, casas e terrenos em 14 maiores capitais do nosso país. Com isso, o objetivo é elucidar melhor o valor destes ativos, em consonância com normas contábeis e também dar mais transparência do valor do patrimônio estatal à sociedade.
 
 
 
@@ -24,7 +24,7 @@ Alethea é um modelo de estimação de preço
 - Devido a disponibilidade de dados, restringiu-se a precificação dos imóveis apenas para as 14 maiores capitais do Brasil;
 - Utilizou-se o LGBMRegressor como algoritmo de aprendizado de máquina;
 - Para busca de melhores hiperparâmetros, utilizou-se a otimização bayesiana;
-- A métrica de minimização foi 
+- A métrica de minimização foi o RMSLE. 
 
 Para entender mais o processo de modelagem, consultar os notebooks desse repositório.
 
