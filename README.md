@@ -20,7 +20,7 @@ Este projeto consiste em uma aplicação voltada para o [XXVI Prêmio Tesouro Na
 - Devido a disponibilidade de dados, restringiu-se a precificação dos imóveis apenas para as 14 maiores capitais do Brasil;
 - Utilizou-se o LGBMRegressor como algoritmo de aprendizado de máquina;
 - Para busca de melhores hiperparâmetros, utilizou-se a otimização bayesiana;
-- A métrica de minimização foi o RMSLE. 
+- A métrica de minimização foi o MSLE. 
 
 Para entender mais o processo de modelagem, consultar os notebooks desse repositório.
 
